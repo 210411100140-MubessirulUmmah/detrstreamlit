@@ -108,7 +108,7 @@ if st.button("🔍 Jalankan Deteksi"):
             detected_images.append(result_path)
 
             # Tampilkan hasil
-            st.image(result_image, caption=f"Hasil Deteksi - {file.name}", use_column_width=True)
+            st.image(result_image, caption=f"Hasil Deteksi - {file.name}", use_container_width=True)
 
         st.success("✅ Deteksi selesai!")
 
