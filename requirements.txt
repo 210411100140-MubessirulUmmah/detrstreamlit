@@ -6,4 +6,5 @@ opencv-python
 numpy
 Pillow
 supervision
+opencv-python-headless
 timm
